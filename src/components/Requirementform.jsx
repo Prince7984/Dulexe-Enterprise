@@ -5,7 +5,7 @@ import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import emailjs from "emailjs-com";
 
-const RequirementForm = () => {
+const Requirementform = () => {
   const formik = useFormik({
     initialValues: {
       name: "",
@@ -119,4 +119,4 @@ const RequirementForm = () => {
   );
 };
 
-export default RequirementForm;
+export default Requirementform;
