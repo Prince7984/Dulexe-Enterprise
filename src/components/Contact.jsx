@@ -2,7 +2,7 @@ import React from 'react';
 import { MapPin, Mail } from 'lucide-react';
 import Navbar from './Navbar';
 import Navbar2 from './Navbar2';
-import RequirementForm from './RequirementForm';
+import Requirementform from './Requirementform';
 import Ls from './Ls';
 
 const Contact = () => {
@@ -38,7 +38,7 @@ const Contact = () => {
         {/* Right Section - Requirement Form */}
         <div className="md:w-1/2 w-full flex justify-center mt-10 md:mt-0">
           <div className="bg-blue-800 text-white p-6 md:p-8 rounded-lg shadow-lg w-full max-w-md">
-            <RequirementForm />
+            <Requirementform />
           </div>
         </div>
       </div>
