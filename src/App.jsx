@@ -7,7 +7,7 @@ import Product from './components/Product';
 import Pulses from './components/Pulses';
 import Spices from './components/Spices';
 import ScrollToTop from './components/ScrollToTop';
-import Requirementform from './components/RequirementForm';
+
 const App = () => {
   return (
     <>
