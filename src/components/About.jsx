@@ -7,16 +7,16 @@ import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 const teamMembers = [
   {
     name: "Mr. Meet Patel",
-    title: "Exporter, International Exim Trainer",
-    education: "BSC CHEMISTRY",
+    title: "Exporter, International Trade Expert",
+    education: "BSC(Bachelor Science)",
     image: "../../spices/meet.jpg",
     description:
-      "Mr. Meet is an exporter & international export-import trainer with over 9 years of experience in global business. He provides practical knowledge and inspires many to do export-import business.",
+      "Mr. Meet Patel, an export industry expert with 5+ years of experience. Skilled in market research, logistics, documentation, and compliance. Dedicated to helping businesses succeed in global trade. Let's connect and grow your export business together, achieving new heights of success!",
   },
   {
     name: "Mr. Atul Patel",
     title: "Exporter, Digital Marketer",
-    education: "ME Mechanical Engineering",
+    education: "M.Tech Mechanical Engineering",
     image: "../../spices/atul.jpg",
     description:
       "By education, Mr. Atul is a Mechanical engineer. By passion & profession, he has deep knowledge & interest in global business, consulting on digital marketing and global brand representation.",
