@@ -3,6 +3,7 @@ import Navbar from './Navbar';
 import Navbar2 from './Navbar2';
 import Ls from './Ls';
 import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { MapPin, Mail, Facebook, Instagram, Linkedin } from "lucide-react";
 
 const teamMembers = [
   {
@@ -10,6 +11,7 @@ const teamMembers = [
     title: "Exporter, International Trade Expert",
     education: "BSC(Bachelor Science)",
     image: "../../spices/meet.jpg",
+    linkedin: "https://www.linkedin.com/in/patel-meet-1a0399348?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     description:
       "Mr. Meet Patel, an export industry expert with 5+ years of experience. Skilled in market research, logistics, documentation, and compliance. Dedicated to helping businesses succeed in global trade. Let's connect and grow your export business together, achieving new heights of success!",
   },
@@ -18,6 +20,7 @@ const teamMembers = [
     title: "Exporter, Digital Marketer",
     education: "M.Tech Mechanical Engineering",
     image: "../../spices/atul.jpg",
+    linkedin: "https://www.linkedin.com/in/atul-patel-0417321a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     description:
       "By education, Mr. Atul is a Mechanical engineer. By passion & profession, he has deep knowledge & interest in global business, consulting on digital marketing and global brand representation.",
   },
@@ -123,9 +126,15 @@ const About = () => {
                   <p className="text-orange-500 font-semibold">{member.education}</p>
                   <p className="text-gray-700 font-medium mt-1">{member.title}</p>
                   <div className="flex justify-center gap-4 text-xl text-gray-600 my-4">
-                    <FaFacebook className="hover:text-blue-600 cursor-pointer" />
-                    <FaInstagram className="hover:text-pink-600 cursor-pointer" />
-                    <FaLinkedin className="hover:text-blue-800 cursor-pointer" />
+                  <a href="https://www.facebook.com/share/1A2k641vLF/" target="_blank" rel="noopener noreferrer">
+                    <Facebook className="hover:text-blue-500 transition"/>
+                  </a>
+                  <a href="https://qr.me-qr.com/WCgEEPCp" target="_blank" rel="noopener noreferrer">
+                    <Instagram  className="hover:text-pink-500 transition"/>
+                  </a>
+                  <a href={member.linkedin}>
+                    <Linkedin  className="hover:text-blue-700 transition" />
+                  </a>
                   </div>
                   <p className="text-gray-600 text-sm">{member.description}</p>
                 </div>
