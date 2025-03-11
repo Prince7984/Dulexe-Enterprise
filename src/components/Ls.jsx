@@ -13,7 +13,7 @@ const Ls = () => {
         </div>
 
         {/* Quick Links */}
-        <div>
+        <div className="space-y-2">
           <h1 className="font-bold text-white text-[24px] md:text-[28px]">Quick Links</h1>
           <ol className="text-white text-md font-bold space-y-1">
             <li className="cursor-pointer hover:text-orange-300">
@@ -32,8 +32,8 @@ const Ls = () => {
         </div>
 
         {/* Products Section */}
-        <div>
-          <h1 className="font-bold text-white mt-[-55px] text-[24px] md:text-[28px]">Products</h1>
+        <div className="space-y-2">
+          <h1 className="font-bold text-white text-[24px] md:text-[28px]">Products</h1>
           <ol className="text-white text-md font-bold space-y-1">
             <li className="cursor-pointer hover:text-orange-300">
               <Link to="/Spices">Spices</Link>
@@ -45,7 +45,7 @@ const Ls = () => {
         </div>
 
         {/* Contact Section */}
-        <div className="text-white mt-[-55px] space-y-2">
+        <div className="text-white space-y-4">
           <div className="flex items-center justify-center md:justify-start">
             <MapPin size={18} />
             <a href="https://maps.app.goo.gl/rJyebbK4Zhtyf48n6" target="_blank" rel="noopener noreferrer" className="ml-2 hover:underline">
