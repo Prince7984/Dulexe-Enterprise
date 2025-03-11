@@ -8,12 +8,7 @@ const Pulses = () => {
 
   // Disable scroll when modal is open
   useEffect(() => {
-    if (selectedImage) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "auto";
-    }
-
+    document.body.style.overflow = selectedImage ? "hidden" : "auto";
     return () => {
       document.body.style.overflow = "auto";
     };
@@ -38,14 +33,14 @@ const Pulses = () => {
         <Navbar2 />
       </div>
 
-      <div className="mx-auto w-full py-10">
+      <div className="mx-auto w-full py-10 px-4">
         {/* Header */}
         <h1 className="text-4xl font-bold text-center bg-black text-white py-4">
           Pulses
         </h1>
 
         {/* About Section */}
-        <div className="flex flex-wrap items-center justify-center my-10 px-4">
+        <div className="flex flex-wrap items-center justify-center my-10">
           <div className="w-full md:w-1/2 p-4">
             <img src="/pulses.jpg" alt="Pulses" className="w-full rounded-lg shadow-lg" />
           </div>
@@ -66,7 +61,7 @@ const Pulses = () => {
           Pulses Products
         </h2>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 px-4">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
           {pulsesList.map((pulse, index) => (
             <div
               key={index}
@@ -91,8 +86,8 @@ const Pulses = () => {
 
       {/* Modal for Image Preview */}
       {selectedImage && (
-        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-75 z-50">
-          <div className="relative bg-white p-5 rounded-lg shadow-lg">
+        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-75 z-50 p-4">
+          <div className="relative bg-white p-5 rounded-lg shadow-lg max-w-[90%] max-h-[90%]">
             <button
               onClick={() => setSelectedImage(null)}
               className="absolute top-2 right-2 bg-red-600 text-white px-3 py-1 rounded-full hover:bg-red-800"

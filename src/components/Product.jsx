@@ -1,23 +1,23 @@
 import React from 'react';
-import { useNavigate } from "react-router-dom"; // Import useNavigate
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom"; 
 import Navbar from './Navbar';
 import Navbar2 from './Navbar2';
 import Ls from './Ls';
 
 const Product = () => {
-  const navigate = useNavigate();  // ✅ Initialize navigate here
+  const navigate = useNavigate(); 
 
   return (
     <div>
       <Navbar />
       <div className="sticky top-0 z-50 bg-white shadow-md">
         <Navbar2 />
-        </div>
-      <section className="container mx-auto py-10">
+      </div>
+
+      <section className="container mx-auto py-10 px-4">
         <h2 className="text-4xl font-bold text-center mb-10">Products</h2>
 
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Spices Card */}
           <div className="bg-white shadow-lg rounded-lg overflow-hidden">
             <img src="/spises2.jpg" alt="Spices" className="w-full h-64 object-cover" />
@@ -27,7 +27,7 @@ const Product = () => {
                 A spice is a seed, fruit, root, bark, or other plant substance primarily used for flavoring or coloring food. Spices are distinguished from herbs…
               </p>
               <button 
-                onClick={() => navigate("/spices")}  // ✅ Now navigate is defined
+                onClick={() => navigate("/spices")}
                 className="mt-4 px-6 py-2 bg-orange-600 text-white font-bold rounded-lg hover:bg-orange-700 transition"
               >
                 View
@@ -44,7 +44,7 @@ const Product = () => {
                 Pulses are edible seeds of plants in the legume family, rich in proteins and essential nutrients...
               </p>
               <button 
-                onClick={() => navigate("/pulses")}  // ✅ Now navigate is defined
+                onClick={() => navigate("/pulses")}
                 className="mt-4 px-6 py-2 bg-green-600 text-white font-bold rounded-lg hover:bg-green-700 transition"
               >
                 View
@@ -53,6 +53,7 @@ const Product = () => {
           </div>
         </div>
       </section>
+
       <Ls />
     </div>
   );
