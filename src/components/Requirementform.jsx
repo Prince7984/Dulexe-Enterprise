@@ -3,7 +3,7 @@ import { useFormik } from "formik";
 import * as Yup from "yup";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 
 const Requirementform = () => {
   const formik = useFormik({

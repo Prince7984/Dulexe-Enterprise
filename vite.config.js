@@ -13,7 +13,7 @@ export default defineConfig({
       external: [
         'yup', 
         'react-toastify', 
-        'emailjs-com' // Updated from 'emailjs-com' to '@emailjs/browser'
+        '@emailjs/browser' // Updated from 'emailjs-com' to '@emailjs/browser'
       ]
     }
   }
