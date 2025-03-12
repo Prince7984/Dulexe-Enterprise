@@ -11,7 +11,6 @@ export default defineConfig({
   build: {
     rollupOptions: {
       external: [
-        'formik', 
         'yup', 
         'react-toastify', 
         'emailjs-com' // Updated from 'emailjs-com' to '@emailjs/browser'
