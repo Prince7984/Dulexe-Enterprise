@@ -10,7 +10,7 @@ export default defineConfig({
   ],
   build: {
     rollupOptions: {
-      external: ['formik', 'yup','react-toastify','emailjs-com']
+      external: ['formik', 'yup', 'react-toastify', 'emailjs-com']
     }
   }
 });
