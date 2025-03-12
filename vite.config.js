@@ -11,8 +11,7 @@ export default defineConfig({
   build: {
     rollupOptions: {
       external: [ 
-        'react-toastify', 
-        '@emailjs/browser' // Updated from 'emailjs-com' to '@emailjs/browser'
+          // Updated from 'emailjs-com' to '@emailjs/browser'
       ]
     }
   }
