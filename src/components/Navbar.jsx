@@ -19,8 +19,8 @@ const Navbar = () => {
         </div>
         <div className="flex items-center space-x-2">
           <Mail size={20} />
-          <a href="mailto:info.dulexeenterprise@gmail.com" className="hover:underline">
-            info.dulexeenterprise@gmail.com
+          <a href="mailto:info@dulexeenterprise.com" className="hover:underline">
+                info@dulexeenterprise.com
           </a>
         </div>
       </div>
@@ -30,7 +30,7 @@ const Navbar = () => {
         <a href="https://www.facebook.com/share/1A2k641vLF/" target="_blank" rel="noopener noreferrer">
           <Facebook size={20} className="hover:text-blue-500 transition"/>
         </a>
-        <a href="https://qr.me-qr.com/WCgEEPCp" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.instagram.com/dulexe_enterprise?utm_source=qr&igsh=MXFyc3NwcDBrMmc3ZQ==" target="_blank" rel="noopener noreferrer">
           <Instagram size={20} className="hover:text-pink-500 transition"/>
         </a>
         <a href="https://www.linkedin.com/company/105642990/admin/dashboard/" target="_blank" rel="noopener noreferrer">
