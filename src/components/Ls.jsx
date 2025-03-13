@@ -54,8 +54,8 @@ const Ls = () => {
           </div>
           <div className="flex items-center justify-center md:justify-start">
             <Mail size={18} />
-            <a href="mailto:info.dulexeenterprise@gmail.com" className="ml-2 hover:underline">
-              info.dulexeenterprise@gmail.com
+            <a href="mailto:info@dulexeenterprise.com" className="ml-2 hover:underline">
+            info@dulexeenterprise.com
             </a>
           </div>
 
