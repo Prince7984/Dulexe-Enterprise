@@ -51,9 +51,9 @@ const Spices = () => {
     { name: "Sesame Hulled", image: "/spices/Sesame holled.png" },
     { name: "Sesame White", image: "/spices/Sesame White.png" },
     { name: "Turmeric Powder", image: "/spices/Turmeric Powder.png" },
-    { name: "Turmeric Whole", image: "/spices/Turmeric Whole.png" }
-    { name: "Cumin Seeds", image: "/spices/cuminseeds.jpg" }
-    { name: "Cumin Seeds Powder", image: "/spices/cuminseedp.jpg" }
+    { name: "Turmeric Whole", image: "/spices/Turmeric Whole.png" },
+    { name: "Cumin Seeds", image: "/spices/cuminseeds.jpg" },
+    { name: "Cumin Seeds Powder", image: "/spices/cuminseedp.jpg" },
 ];
 
 
