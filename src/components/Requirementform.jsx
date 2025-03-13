@@ -30,10 +30,10 @@ const Requirementform = () => {
     onSubmit: async (values, { resetForm }) => {
       try {
         const emailPromise = emailjs.send(
-          "service_g3gzaoo",
-          "template_5ij1119",
+          "service_6kxya0p",
+          "template_g9xvg6k",
           values,
-          "wVnOZeovgApKzKHjW"
+          "9vxR4t6pPUr3J7E_B"
         );
 
         toast.success("Your details have been submitted!", { position: "top-center" });
